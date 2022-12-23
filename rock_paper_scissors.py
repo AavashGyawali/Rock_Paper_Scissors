@@ -11,7 +11,7 @@ while enter!='q':
     user_action1= input("Enter 'rock','paper'or'scissors' ")
     user_action= user_action1.lower()
     # condition if user gives incorrect input
-    if user_action1 not in possible_action:
+    if user_action not in possible_action:
         print ("you did not typed correctly")
         continue
     # generating random input by computer
@@ -42,6 +42,6 @@ while enter!='q':
             score_computer=score_computer + 1
     enter = input("Enter q to exit else enter anything to continue \n")
     
-# Final score 
+# Final score
 print(f"Your score is {score_user} \n Computer's score is {score_computer} ")
 
