@@ -1,5 +1,6 @@
 import random
-user_action= input("Enter 'rock','paper'or'scissors' ")
+user_action1= input("Enter 'rock','paper'or'scissors' ")
+user_action= user_action1.lower()
 possible_action= ['rock','paper','scissors']
 computer_action =random.choice(possible_action)
 print(f"You choice is {user_action} and computer's choice is {computer_action}")
